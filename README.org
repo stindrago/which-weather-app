@@ -21,13 +21,13 @@ Find the temperature in any place on 🌎 Earth!
 To get an interactive development environment run:
 
 #+begin_src shell
-    clojure -A:fig:build
+    clj -A:fig:build
 #+end_src
 
 To create a production build run:
 
 #+begin_src shell
-	clojure -A:fig:min
+    clj -A:fig:min
 #+end_src
 
-## [[./LICENSE][License]]
+** [[./LICENSE][License]]
