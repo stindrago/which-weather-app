@@ -1,0 +1,30 @@
+#+title: Which Weather
+
+[[./resources/img/screen.png]]
+** Overview
+
+Find the temperature in any location on 🌎 Earth!
+
+** [[http://demo.stindrago.com/][Demo]]
+
+** Stack 
+
+- [[https://clojurescript.org][ClojureScript]]
+- [[https://figwheel.org][figwheel]]
+- [[https://kbrsh.github.io/wing/][Wing CSS]]
+
+** Development
+
+To get an interactive development environment run:
+
+#+begin_src shell
+    clojure -A:fig:build
+#+end_src
+
+To create a production build run:
+
+#+begin_src shell
+	clojure -A:fig:min
+#+end_src
+
+## [[./LICENSE][License]]

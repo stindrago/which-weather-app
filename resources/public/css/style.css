@@ -1,7 +1,22 @@
 @import url("https://unpkg.com/wingcss");
 
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 input[type=number] {
-  width: 50%;
+  width: 100px;
+  margin: 20px;
 }
 
 input::-webkit-outer-spin-button,
@@ -24,7 +39,7 @@ input::-webkit-inner-spin-button {
 }
 
 .temperatures > .temperature > .value {
-  font-size: 130%;
+  font-size: 300%;
   font-weight: lighter;
   padding: 4px;
   flex-basis: 26px;
