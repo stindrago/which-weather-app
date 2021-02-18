@@ -8,7 +8,7 @@
 
 Find the temperature in any place on 🌎 Earth!
 
-** [[http://demo.stindrago.com/][Demo]]
+** [[http://demo.stindrago.com/which-weather][Demo]]
 
 ** Stack 
 
