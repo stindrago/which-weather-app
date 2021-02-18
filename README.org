@@ -1,9 +1,13 @@
 #+title: Which Weather
 
+#+attr_html: :width 100px
+#+attr_latex: :width 100px
+[[~/images/example.jpg]]
 [[./resources/img/screen.png]]
+
 ** Overview
 
-Find the temperature in any location on 🌎 Earth!
+Find the temperature in any place on 🌎 Earth!
 
 ** [[http://demo.stindrago.com/][Demo]]
 
