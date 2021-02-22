@@ -15,7 +15,7 @@ Find the temperature in any place on 🌎 Earth!
 - [[https://clojurescript.org][ClojureScript]]
 - [[https://figwheel.org][figwheel]]
 - [[https://kbrsh.github.io/wing/][Wing CSS]]
-- [[http://api.openweathermap.org/data/2.5/forecast][Open Weather API]]
+- [[https://openweathermap.org][Open Weather API]]
 
 ** Development
 
@@ -29,6 +29,7 @@ To create a production build run:
 
 #+begin_src shell
     clj -A:fig:min
+    cp -rf resources/public/* target/public/
 #+end_src
 
 ** Credit
