@@ -17,6 +17,16 @@ Find the temperature in any place on 🌎 Earth!
 - [[https://kbrsh.github.io/wing/][Wing CSS]]
 - [[https://openweathermap.org][Open Weather API]]
 
+** API
+
+Get an API Key from [[https://home.openweathermap.org/api_keys][here]].
+
+Add the key in ~src/learn_cljs/weather.cljs~ at 
+
+#+begin_src clj
+  (def api-key "")
+#+end_src
+
 ** Development
 
 To get an interactive development environment run:
@@ -24,6 +34,8 @@ To get an interactive development environment run:
 #+begin_src shell
     clj -A:fig:build
 #+end_src
+
+** Production
 
 To create a production build run:
 
