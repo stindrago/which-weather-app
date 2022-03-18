@@ -24,7 +24,7 @@
 
 (defn get-forecast! []
   (let [postal-code (:postal-code @app-state)]
-    (ajax/GET "http://api.openweathermap.org/data/2.5/forecast"
+    (ajax/GET "https://api.openweathermap.org/data/2.5/forecast"
       {:params {"q" postal-code
                 "units" "metric" ;; alternatively, use "metric"
                 "appid" api-key}
